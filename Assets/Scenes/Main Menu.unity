@@ -207,7 +207,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 602639346}
-        m_TargetAssemblyTypeName: PlayToFind, Assembly-CSharp
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
         m_MethodName: playToFind
         m_Mode: 1
         m_Arguments:
@@ -419,7 +419,7 @@ GameObject:
   - component: {fileID: 602639345}
   - component: {fileID: 602639346}
   m_Layer: 0
-  m_Name: PlayToFind
+  m_Name: SceneSwitch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

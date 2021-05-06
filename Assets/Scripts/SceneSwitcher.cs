@@ -12,4 +12,8 @@ public class SceneSwitcher : MonoBehaviour
     public void toLobby() {
         SceneManager.LoadScene("Lobby");
     }
+
+    public void toGame() {
+        SceneManager.LoadScene("GameView");
+    }
 }

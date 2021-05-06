@@ -185,3 +185,35 @@ System memory in use after: 164.7 MB.
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2352.
 Total: 3.954389 ms (FindLiveObjects: 0.366587 ms CreateObjectMapping: 0.105079 ms MarkObjects: 3.331133 ms  DeleteObjects: 0.148520 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1635.145973 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(b0a750eea98cf43c1bb9b9875b168b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(b0a750eea98cf43c1bb9b9875b168b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866b4fe9bcf4062cdaca4d09e607a22b') in 0.025174 seconds
+  Import took 0.029930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 332.601557 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(7b4638cddee0d45e0bfc1035b77dc5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(7b4638cddee0d45e0bfc1035b77dc5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1e678c8bcf3b09b4f3fd3d9dc4bc86') in 0.004448 seconds
+  Import took 0.012253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.678184 seconds.
+  path: Assets/Photos/t5lvf4AB_400x400.jpg
+  artifactKey: Guid(5cf01f745dece4e688c18512dd214dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photos/t5lvf4AB_400x400.jpg using Guid(5cf01f745dece4e688c18512dd214dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8df70c93c97cd2cf230856fdadbf71') in 0.107004 seconds
+  Import took 0.113071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.377320 seconds.
+  path: Assets/Photos/Black Hand.jpg
+  artifactKey: Guid(5cf01f745dece4e688c18512dd214dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photos/Black Hand.jpg using Guid(5cf01f745dece4e688c18512dd214dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787ae91450aa4a9d00181528eb5eae7d') in 0.016320 seconds
+  Import took 0.024089 seconds .
+

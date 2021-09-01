@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneSwitcher : MonoBehaviour
 {
     public void playToFind() {
-        SceneManager.LoadScene("FindCreateGame");
+        SceneManager.LoadScene("HostJoinScreen");
     }
 
     public void toLobby() {

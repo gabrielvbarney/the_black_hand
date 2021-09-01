@@ -1690,7 +1690,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Insert animation \nhere"
+  m_Text: "Insert \nart\nhere"
 --- !u!222 &1113661956
 CanvasRenderer:
   m_ObjectHideFlags: 0

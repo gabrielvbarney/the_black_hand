@@ -209,9 +209,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Test
-
-'
+  m_Text: 
 --- !u!222 &26170428
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -236,10 +234,10 @@ MonoBehaviour:
   group: 0
   OwnerShipWasTransfered: 0
   prefixBackup: -1
-  synchronization: 3
+  synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
-  ownershipTransfer: 0
+  ownershipTransfer: 2
   ObservedComponents:
   - {fileID: 26170425}
   ObservedComponentsFoldoutOpen: 1
@@ -467,7 +465,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Test
+  m_Text: '
 
 '
 --- !u!222 &160348689
@@ -494,10 +492,10 @@ MonoBehaviour:
   group: 0
   OwnerShipWasTransfered: 0
   prefixBackup: -1
-  synchronization: 3
+  synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
-  ownershipTransfer: 0
+  ownershipTransfer: 2
   ObservedComponents:
   - {fileID: 160348686}
   ObservedComponentsFoldoutOpen: 1
@@ -591,7 +589,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Test
+  m_Text: '
 
 '
 --- !u!222 &168986705
@@ -618,10 +616,10 @@ MonoBehaviour:
   group: 0
   OwnerShipWasTransfered: 0
   prefixBackup: -1
-  synchronization: 3
+  synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
-  ownershipTransfer: 0
+  ownershipTransfer: 2
   ObservedComponents:
   - {fileID: 168986702}
   ObservedComponentsFoldoutOpen: 1
@@ -1402,7 +1400,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Test
+  m_Text: '
 
 '
 --- !u!222 &616068972
@@ -1429,10 +1427,10 @@ MonoBehaviour:
   group: 0
   OwnerShipWasTransfered: 0
   prefixBackup: -1
-  synchronization: 3
+  synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
-  ownershipTransfer: 0
+  ownershipTransfer: 2
   ObservedComponents:
   - {fileID: 616068969}
   ObservedComponentsFoldoutOpen: 1
@@ -1976,9 +1974,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Test
-
-'
+  m_Text: 
 --- !u!222 &1208542283
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2003,10 +1999,10 @@ MonoBehaviour:
   group: 0
   OwnerShipWasTransfered: 0
   prefixBackup: -1
-  synchronization: 3
+  synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
-  ownershipTransfer: 0
+  ownershipTransfer: 2
   ObservedComponents:
   - {fileID: 1208542280}
   ObservedComponentsFoldoutOpen: 1
@@ -2100,7 +2096,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Test
+  m_Text: '
 
 '
 --- !u!222 &1256678136
@@ -2127,10 +2123,10 @@ MonoBehaviour:
   group: 0
   OwnerShipWasTransfered: 0
   prefixBackup: -1
-  synchronization: 3
+  synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
-  ownershipTransfer: 0
+  ownershipTransfer: 2
   ObservedComponents:
   - {fileID: 1256678133}
   ObservedComponentsFoldoutOpen: 1
@@ -2790,7 +2786,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Test
+  m_Text: '
 
 '
 --- !u!222 &1763177171
@@ -2817,10 +2813,10 @@ MonoBehaviour:
   group: 0
   OwnerShipWasTransfered: 0
   prefixBackup: -1
-  synchronization: 3
+  synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
-  ownershipTransfer: 0
+  ownershipTransfer: 2
   ObservedComponents:
   - {fileID: 1763177168}
   ObservedComponentsFoldoutOpen: 1
@@ -3014,7 +3010,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Test
+  m_Text: '
 
 '
 --- !u!222 &1784181188
@@ -3041,10 +3037,10 @@ MonoBehaviour:
   group: 0
   OwnerShipWasTransfered: 0
   prefixBackup: -1
-  synchronization: 3
+  synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
-  ownershipTransfer: 0
+  ownershipTransfer: 2
   ObservedComponents:
   - {fileID: 1784181185}
   ObservedComponentsFoldoutOpen: 1
@@ -3206,7 +3202,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Test
+  m_Text: '
 
 '
 --- !u!222 &1914466630
@@ -3247,10 +3243,10 @@ MonoBehaviour:
   group: 0
   OwnerShipWasTransfered: 0
   prefixBackup: -1
-  synchronization: 3
+  synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
-  ownershipTransfer: 0
+  ownershipTransfer: 2
   ObservedComponents:
   - {fileID: 1914466628}
   ObservedComponentsFoldoutOpen: 1
@@ -3344,7 +3340,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Test
+  m_Text: '
 
 '
 --- !u!222 &1927266022
@@ -3371,10 +3367,10 @@ MonoBehaviour:
   group: 0
   OwnerShipWasTransfered: 0
   prefixBackup: -1
-  synchronization: 3
+  synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
-  ownershipTransfer: 0
+  ownershipTransfer: 2
   ObservedComponents:
   - {fileID: 1927266019}
   ObservedComponentsFoldoutOpen: 1

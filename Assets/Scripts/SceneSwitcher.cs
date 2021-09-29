@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneSwitcher : MonoBehaviour
+using UnityEngine.UI;
+
+
+
+public class SceneSwitcher : Photon.PunBehaviour // MonoBehaviour
 {
     public void playToFind() {
         SceneManager.LoadScene("HostJoinScreen");
@@ -14,6 +18,7 @@ public class SceneSwitcher : MonoBehaviour
     }
 
     public void toGame() {
-        SceneManager.LoadScene("GameView");
+        // SceneManager.LoadScene("GameView");
+        PhotonNetwork.LoadLevel(2); // game view
     }
 }

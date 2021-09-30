@@ -19,6 +19,8 @@ public class SceneSwitcher : Photon.PunBehaviour // MonoBehaviour
 
     public void toGame() {
         // SceneManager.LoadScene("GameView");
-        PhotonNetwork.LoadLevel(2); // game view
+        // PhotonNetwork.LoadLevel(2); // game view
+        PhotonNetwork.LoadLevel("GameView");
+        
     }
 }

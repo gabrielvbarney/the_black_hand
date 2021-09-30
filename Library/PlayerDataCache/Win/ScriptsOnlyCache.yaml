@@ -44,7 +44,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -229,7 +228,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4932}
     - Class: 114
-      Script: {instanceID: 23082}
+      Script: {instanceID: 5186}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -392,11 +391,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5102}
     - Class: 114
-      Script: {instanceID: 5186}
+      Script: {instanceID: 5192}
     - Class: 114
-      Script: {instanceID: 5210}
+      Script: {instanceID: 5212}
     - Class: 114
-      Script: {instanceID: 5472}
+      Script: {instanceID: 5474}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1732,6 +1731,12 @@ ScriptsOnlyBuild:
     className: PunTurnManager
   - hash:
       serializedVersion: 2
+      Hash: 1200787e707c68800e616655eba9347f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: incrementPlayerCount
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1808,12 +1813,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Demo2DJumpAndRun
-  - hash:
-      serializedVersion: 2
-      Hash: 1200787e707c68800e616655eba9347f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: incrementPlayerCount
   platform: 5
   scenePathNames:
   - Assets/Scenes/Main Menu.unity

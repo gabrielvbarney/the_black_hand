@@ -9,9 +9,12 @@ public class incrementPlayerCount : Photon.PunBehaviour
     public int Value = 0;
     public PhotonView photonView;
 
+    
+
     private void Awake()
     {
         
+        PhotonNetwork.automaticallySyncScene = true;
         ++Value;
         playerCount.text = Value.ToString();
 

@@ -120,9 +120,8 @@ public class Story : MonoBehaviour
 
     IEnumerator DelayCoroutine()
     {
-
-        Debug.Log(Time.time);
-        yield return new WaitForSeconds(10);
+        inCoroutine = true;
+        yield return new WaitForSeconds(5);
         inCoroutine = false;
     }
 }

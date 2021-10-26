@@ -13,6 +13,7 @@ ScriptsOnlyBuild:
     - ExitGames.Demos.DemoAnimator.PlayerManager
     - ExitGames.Demos.DemoAnimator.PlayerUI
     - HighlightOwnedGameObj
+    - HostOfLobby
     - IdleRunJump
     - JumpAndRunMovement
     - MaterialPerOwner
@@ -236,6 +237,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4934}
     - Class: 114
       Script: {instanceID: 5190}
+    - Class: 114
+      Script: {instanceID: 30164}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1832,6 +1835,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Demo2DJumpAndRun
+  - hash:
+      serializedVersion: 2
+      Hash: db383debccf025fb7548a9120b6528c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HostOfLobby
   platform: 5
   scenePathNames:
   - Assets/Scenes/Main Menu.unity

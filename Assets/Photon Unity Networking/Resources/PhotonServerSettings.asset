@@ -44,4 +44,5 @@ MonoBehaviour:
   - RequestForPickupTimes
   - TaggedPlayer
   - RPC_AddNewMessage
+  - RPC_AddNewAnnouncement
   DisableAutoOpenWizard: 1

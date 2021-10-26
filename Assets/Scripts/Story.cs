@@ -47,7 +47,7 @@ public class Story : MonoBehaviour
     void RPC_AddNewAnnouncement(string announcement) // pass in incremented storypoint
     {
         _announcements.Add(announcement); // post-increment in c# ?
-        // pointInAnnouncement++;
+        // pointInAnnouncement++; //
     }
 
     public void SendAnnouncement()

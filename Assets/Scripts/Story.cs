@@ -20,6 +20,7 @@ public class Story : MonoBehaviour
     };
 
     public Text StoryContent;
+    private bool gameOver = false; // may need to do separate method for game flow: while gameOver == false :
 
     public bool isReady; // commented out = true
     public bool inCoroutine = false;
@@ -31,36 +32,35 @@ public class Story : MonoBehaviour
 
     private List<string> _announcements = new List<string>(); // actual items displayed on-screen
 
-    private PhotonView _photon; 
+    private PhotonView _photon;
     private float _buildDelay = 0f;
     private int _maximumAnnouncements = 10; // arbitrary
+
+    public Text countDown;
 
     // Start is called before the first frame update
     void Start()
     {
+        // will need to instantiate player stuff in here
         _photon = GetComponent<PhotonView>(); // maybe used for role assignment?
-        isReady = true;
-
+        StartCoroutine(DelayCoroutineNightZero());  
     }
 
     [PunRPC]
     void RPC_AddNewAnnouncement(string announcement) // pass in incremented storypoint
     {
         _announcements.Add(announcement); // post-increment in c# ?
-        // pointInAnnouncement++; //
+        pointInAnnouncement++; 
+        isReady = true;
     }
 
     public void SendAnnouncement()
     {
         string announcement = announcements[pointInAnnouncement];
-        StartCoroutine(DelayCoroutine());
-        // _photon.RPC("RPC_AddNewAnnouncement", PhotonTargets.All, announcement);
         RPC_AddNewAnnouncement(announcement);
     }
 
     // SEND STORY METHOD
-
-    // public void SubmitAnnouncement() {} // may have to do some timing in here...
 
     void BuildAnnouncementContents() 
     {
@@ -73,10 +73,6 @@ public class Story : MonoBehaviour
     
     } // may be unneeded due to pregenerated announcements/stories
 
-
-    
-
-    
 
     // Update is called once per frame
     void Update()
@@ -98,7 +94,7 @@ public class Story : MonoBehaviour
             if (_buildDelay < Time.time && !inCoroutine)
             {
               
-                StartCoroutine(DelayCoroutine());
+                // StartCoroutine(DelayCoroutine5()); //maybe dont need?
                 BuildAnnouncementContents();
                 _buildDelay = Time.time + 0.25f;
             }
@@ -108,20 +104,36 @@ public class Story : MonoBehaviour
             _announcements.Clear();
             StoryContent.text = "";
         }
+        Debug.Log(pointInAnnouncement);
+    }
 
-        if (nightCount == 0 && isReady) // probs need to change this later
-        {
-            isReady = false;
-            SendAnnouncement();
-            
-        }
+    IEnumerator DelayCoroutineNightZero()
+    {
+        
+        yield return new WaitForSeconds(5);
+        SendAnnouncement();
+        
+        yield return new WaitForSeconds(5);
+        countDown.gameObject.SetActive(true);
+
+        yield return new WaitForSeconds(1);
+        countDown.text = "4";
+
+        yield return new WaitForSeconds(1);
+        countDown.text = "3";
+
+        yield return new WaitForSeconds(1);
+        countDown.text = "2";
+
+        yield return new WaitForSeconds(1);
+        countDown.text = "1";
 
     }
 
-    IEnumerator DelayCoroutine()
+    IEnumerator Delay1Second()
     {
         inCoroutine = true;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSecondsRealtime(1);
         inCoroutine = false;
     }
 }

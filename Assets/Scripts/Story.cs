@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Story : MonoBehaviour
+public class Story : Photon.PunBehaviour
 {
 
     List<string> announcements = new List<string>()
@@ -18,6 +18,11 @@ public class Story : MonoBehaviour
 
 
     };
+
+    // public PlayerFunctions pf = new PlayerFunctions();
+
+    // PlayerFunctions pf = new PlayerFunctions();
+    
 
     public Text StoryContent;
     private bool gameOver = false; // may need to do separate method for game flow: while gameOver == false :
@@ -42,8 +47,10 @@ public class Story : MonoBehaviour
     void Start()
     {
         // will need to instantiate player stuff in here
+        
         _photon = GetComponent<PhotonView>(); // maybe used for role assignment?
-        StartCoroutine(DelayCoroutineNightZero());  
+        StartCoroutine(DelayCoroutineNightZero());
+       
     }
 
     [PunRPC]
@@ -104,7 +111,7 @@ public class Story : MonoBehaviour
             _announcements.Clear();
             StoryContent.text = "";
         }
-        Debug.Log(pointInAnnouncement);
+       // Debug.Log(pointInAnnouncement);
     }
 
     IEnumerator DelayCoroutineNightZero()
@@ -127,6 +134,7 @@ public class Story : MonoBehaviour
 
         yield return new WaitForSeconds(1);
         countDown.text = "1";
+       // pf.assignRoles(); // may need to import class?
 
     }
 
@@ -136,4 +144,6 @@ public class Story : MonoBehaviour
         yield return new WaitForSecondsRealtime(1);
         inCoroutine = false;
     }
+
+    
 }

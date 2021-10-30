@@ -45,4 +45,7 @@ MonoBehaviour:
   - TaggedPlayer
   - RPC_AddNewMessage
   - RPC_AddNewAnnouncement
+  - assignRoles
+  - Start
+  - sendRoleAnnouncement
   DisableAutoOpenWizard: 1

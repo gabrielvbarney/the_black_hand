@@ -43,6 +43,8 @@ public class Story : Photon.PunBehaviour
 
     public Text countDown;
 
+    public PlayerFunctions pf;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -134,7 +136,11 @@ public class Story : Photon.PunBehaviour
 
         yield return new WaitForSeconds(1);
         countDown.text = "1";
-       // pf.assignRoles(); // may need to import class?
+
+        yield return new WaitForSeconds(1);
+        countDown.gameObject.SetActive(false);
+
+        pf.sendRoleAnnouncement(); // may need to import class?
 
     }
 

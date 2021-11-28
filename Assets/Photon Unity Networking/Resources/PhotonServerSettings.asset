@@ -48,4 +48,6 @@ MonoBehaviour:
   - assignRoles
   - Start
   - sendRoleAnnouncement
+  - RPC_receiveRoles
+  - RPC_setPlayerWindows
   DisableAutoOpenWizard: 1

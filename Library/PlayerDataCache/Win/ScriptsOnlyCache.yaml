@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - PunSceneSettings
     Assembly-CSharp.dll:
     - AudioRpc
+    - ButtonOps
     - ChatManager
     - ClickAndDrag
     - ClickDetector
@@ -77,6 +78,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -109,6 +111,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1474}
     - Class: 114
+      Script: {instanceID: 1590}
+    - Class: 114
       Script: {instanceID: 2586}
     - Class: 114
       Script: {instanceID: 2746}
@@ -126,6 +130,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3312}
     - Class: 114
       Script: {instanceID: 3918}
+    - Class: 114
+      Script: {instanceID: 4012}
     - Class: 114
       Script: {instanceID: 5096}
     - Class: 115
@@ -1300,7 +1306,7 @@ ScriptsOnlyBuild:
     className: CubeInter
   - hash:
       serializedVersion: 2
-      Hash: 8c2d410aa3dbbe3130d4ae3c7a32d0e2
+      Hash: d8442f5d69d6a9134bff32581494501f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerFunctions
@@ -1744,7 +1750,7 @@ ScriptsOnlyBuild:
     className: TextConsoleSimulator
   - hash:
       serializedVersion: 2
-      Hash: 798da97ff3fe7354772e64af3b525323
+      Hash: f2004e592745e58e99194610c38c352d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Story
